@@ -1,0 +1,149 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.topo{
+    background:#0099A8 ;
+    font-size: x-small;    
+}
+#cabecalho{
+    background: url('imagens/fundo.png') no-repeat center top;
+}
+.logo img {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 1%;
+}
+.conteudo{
+	max-width: 1280px;
+    overflow: hidden;
+    margin: 0 auto;    
+    padding: 20px;
+}
+.conteudo div{
+	padding: 0 15px;
+}
+.conteudo h2{
+	color:#482AB8;
+	text-align: center;
+	font-size: 38px;
+}
+.conteudo p{
+    text-align: center;
+    color: #361F89;
+    font-size: 20px;
+}
+.formulario{
+    max-width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: azure;
+    background: #482AB8;
+	border:#15EFFF solid 3px;
+	border-radius: 10px;
+	padding: 15px;
+}
+.formulario input[type="text"], .formulario input[type="email"], .formulario select{
+	width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
+}
+.formulario label{display: block}
+.formulario input[type="submit"]{
+	width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #FFF;
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: #0099A8;
+    font-weight: bolder;
+}
+.destaque{color: #fff}
+.aceite{
+    color: #fff;
+    font-size: 14px
+}
+#produtos{
+	background: #fff;
+	padding: 20px 0;
+}
+.conteudo h3, .chamada h3{
+	color:#0099A8;
+	text-align: center;
+	font-size: 36px;
+}
+.conteudo-bottom{
+	max-width: 1280px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 4px #fff;
+    padding: 20px;
+}
+.chamada{
+    text-align: center;
+    color: #361F89
+}
+.camisetas{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.camisetas div{
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.camisetas img{
+    display:block;
+    margin: 0 auto;
+}
+.camisetas p{
+    text-align: center;
+    color: #a626a5;
+    font-size:x-large;
+}
+.produtos div b{
+    color: #fff;
+}
+.conteudo-rodape {
+    height: 40px;
+    padding: 15px;
+    text-align: center;
+    background: #0099A8;
+}
+.conteudo-rodape p{
+    color:#fff;
+	text-align: center;
+	font-size: 16px;
+}
+footer a:link, a:visited {
+    color: #482AB8;
+}
+
+/*Comandos para responsividade */
+@media (max-width: 1280px) {
+    .conteudo div{width: 100%;}
+    .camisetas div{width: 50%;}    
+} 
+@media (max-width: 768px){
+	.conteudo div{width:100%;}
+	.camisetas div{width: 100%}
+}
+@media (max-width: 640px) {
+    .conteudo div {max-width: 350px;}
+    .camisetas {max-width: 350px;}
+    .conteudo div{width: 100%;}
+    .camisetas div{width: 100%;}
+}
